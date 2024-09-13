@@ -1,0 +1,120 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nimbus Sans L", sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+#nleft{
+    display: flex;
+    gap: 2vw;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 2ch;
+}
+#nav .logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 7vh;
+}
+#hero{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sustain{
+    width: 12vw;
+}
+#sustain p{
+    font-size: 1.5ch;
+    padding: 0.5vw 0;
+    line-height: 1;
+    opacity: 0.8;
+}
+#sustain #susimagewrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 17vw;
+}
+#sustain #susimagewrapper img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephem{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+}
+#ephem #headings{
+    position: absolute;
+    top: -22%;
+    left: -13%;
+}
+#ephem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephem h1{
+    letter-spacing: -.4vw;
+    font-size: 10ch;
+    font-weight: 100;
+    font-weight: 400;
+    line-height: 1;
+}
+#ephem p{
+    padding-top: 1vw;
+    font-size: 1.8ch;
+    width: 35%;
+    letter-spacing: -0.02vw;
+    line-height: 1.2;
+
+}
+#visit{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+#visit h3{
+    font-weight: 300;
+    color: #5e5e5e;
+}
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #dadada;
+}
+#circlev i{
+    color: #5e5e5e;
+}

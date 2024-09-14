@@ -26,7 +26,7 @@ html,body{
 #nav a{
     text-decoration: none;
     color: black;
-    font-size: 2ch;
+    font-size: 1.04vw;
 }
 #nav .logo{
     position: absolute;
@@ -47,7 +47,7 @@ html,body{
     width: 12vw;
 }
 #sustain p{
-    font-size: 1.5ch;
+    font-size: 0.78vw;
     padding: 0.5vw 0;
     line-height: 1;
     opacity: 0.8;
@@ -74,7 +74,7 @@ html,body{
 }
 #ephem #headings{
     position: absolute;
-    top: -22%;
+    top: -18%;
     left: -13%;
 }
 #ephem img{
@@ -84,18 +84,17 @@ html,body{
 }
 #ephem h1{
     letter-spacing: -.4vw;
-    font-size: 10ch;
+    font-size: 5.2vw;
     font-weight: 100;
     font-weight: 400;
     line-height: 1;
 }
 #ephem p{
     padding-top: 1vw;
-    font-size: 1.8ch;
+    font-size: 0.94vw;
     width: 35%;
     letter-spacing: -0.02vw;
     line-height: 1.2;
-
 }
 #visit{
     display: flex;
@@ -105,6 +104,7 @@ html,body{
 #visit h3{
     font-weight: 300;
     color: #5e5e5e;
+    font-size: 1.04vw;
 }
 #circlev{
     width: 3vw;
@@ -117,4 +117,187 @@ html,body{
 }
 #circlev i{
     color: #5e5e5e;
+}
+#motive{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+    margin-top: 5vw;
+}
+#motive h3{
+    font-size: 1.04vw;
+    font-weight: 300;
+    color: #5e5e5e;
+    text-transform: uppercase;
+    letter-spacing: -0.05vw;
+}
+#motive p{
+    margin-top: 4vw;
+    width: 75%;
+    font-size: 1.61vw;
+    text-align: right;
+    line-height: 1.7;
+    letter-spacing: -0.1vw;
+}
+#motive span{
+    margin: 0 0.5vw;
+    margin-bottom: -0.7vw;
+    display: inline-block;
+    border-radius: 100px;
+    background-color: red;
+}
+#onespan{
+    width: 5vw;
+    height: 6vh;
+    background-image: url("./bluegirl.jpg");
+    background-size: cover;
+    background-position: 0% 55%;
+}
+#twospan{
+    width: 7vw;
+    height: 7vh;
+    background-image: url("./shaljam.jpg");
+    background-size: cover;
+    background-position: 0% 50%;
+}
+#threespan{
+    width: 5vw;
+    height: 6vh;
+    background-image: url("./grass.jpg");
+    background-size: cover;
+    background-position: 0% 55%;
+}
+#gallery{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 12vw;
+    margin-top: 5vw;
+}
+#galleryleft{
+    width: 20vw;
+    height: 40vw;
+}
+#galleryleftimg{
+    width: 100%;
+    height: 80%;
+}
+#galleryleftimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#gallerylefttext{
+    width: 85%;
+    padding-top: 1vw;
+    font-size: 0.88vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+#galleryright{
+    width: 28vw;
+    height: 55vw;
+}
+#galleryrightimg{
+    width: 100%;
+    height: 80%;
+}
+#galleryrightimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#galleryrighttext{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    padding-top: 1vw;
+    font-size: 0.93vw;
+    text-align: right;
+    width: 70%;
+    margin-left: auto;
+}
+
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7vw;
+}
+#bimg{
+    width: 65%;
+    height: 70vh;
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 65%;
+}
+#btext{
+    width: 30%;
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    
+}
+#btext h1{
+    font-size: 2.34vw;
+    font-weight: 400;
+    letter-spacing: -0.15vw;
+    line-height: 1;
+}
+#btext p{
+    width: 80%;
+    font-size: 0.94vw;
+    line-height: 1.5;
+    letter-spacing: -0.02vw;
+}
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 5vw;
+}
+#future video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+#ftext{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ftext h1{
+    font-size: 2.34vw;
+    font-weight: 400;
+    letter-spacing: -0.15vw;
+    line-height: 1;
+}
+
+#ftext button{
+    padding: 1vw 2vw;
+    font-size: 0.8vw;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid #c6c6c6;
+    color: #9a9a9a;
+
 }

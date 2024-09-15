@@ -59,10 +59,6 @@ html,body{
     height: 17vw;
 }
 #sustain #susimagewrapper img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -269,6 +265,7 @@ html,body{
     margin-top: 5vw;
 }
 #future video{
+    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;

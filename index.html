@@ -8,10 +8,12 @@
       content="Your sustainable partner for a greener tomorrow. We offer practical solutions and resources to help you make eco-friendly choices."
       name="description"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -19,15 +21,17 @@
       <div id="home">
         <div id="nav">
           <div id="nleft">
-            <a href="">Home</a><a href="">Pricing</a><a href="">Products</a>
+            <a class="nlink" href="">Home</a>
+            <a class="nlink" href="">Pricing</a>
+            <a class="nlink" href="">Products</a>
           </div>
           <img class="logo" src="./logo.png" alt="" />
           <div id="nright">
-            <a href="">Products</a>
+            <a class="nlink" href="">Products</a>
           </div>
         </div>
         <div id="hero">
-          <div id="sustain">
+          <div class="anim2" id="sustain">
             <h5>01.</h5>
             <h2>Sustainability.</h2>
             <p>
@@ -38,7 +42,7 @@
               <img src="./pinkgreenplant.jpg" alt="" />
             </div>
           </div>
-          <div id="ephem">
+          <div class="anim2" id="ephem">
             <div id="headings">
               <h1>Ephemeral</h1>
               <h1>Equilibirium.</h1>
@@ -49,66 +53,72 @@
               tomorrow
             </p>
           </div>
-          <div id="visit">
+          <div class="anim2" id="visit">
             <div id="circlev">
               <i class="ri-arrow-down-line"></i>
             </div>
             <h3>Visit our gallery</h3>
           </div>
         </div>
-        <div id="motive">
-          <h3>Our motive</h3>
-          <p>
-            At Sheryians, we are deeply committed to sustainability.<span id="onespan" j></span> We believe
-            in a greener, more sustainable future,and
-            it's at the core of everything we do. Our practices are designed
-            with environmental <span id="twospan"></span>responsibility in mind,
-            from sourcing eco-friendly<span id="threespan"></span>materials to reduce our carbon footprint.
-          </p>
-        </div>
-        <div id="gallery">
-            <div id="galleryleft">
-                <div id="galleryleftimg">
-                    <img src="./sea.jpg" alt="">
-                </div>
-                <div id="gallerylefttext">
-                    <h2>Synergy</h2>
-                    <p>Committed to sustainability, eco-feiendly choices for a better
-                        tomorrow</p>
-                </div>
-            </div>
-            <div id="galleryright">
-                <div id="galleryrightimg">
-                    <img src="./cloud.jpg" alt="">
-                </div>
-                <div id="galleryrighttext">
-                    <h2>Harmony</h2>
-                    <p>Committed to sustainability, eco-feiendly choices for a better
-                        tomorrow</p>
-                </div>
-            </div>
-        </div>
-        <div id="banner">
-            <div id="bimg">
-                <img src="./bottle.jpg" alt="">
-            </div>
-            <div id="btext">
-                <h1>Biodegradable <br> Packing</h1>
+      </div>
+      <div id="motive">
+        <h3>Our motive</h3>
+        <p>
+          At Sheryians, we are deeply committed to sustainability.<span id="onespan" j></span> We believe
+          in a greener, more sustainable future,and
+          it's at the core of everything we do. Our practices are designed
+          with environmental <span id="twospan"></span>responsibility in mind,
+          from sourcing eco-friendly<span id="threespan"></span>materials to reduce our carbon footprint.
+        </p>
+      </div>
+      <div id="gallery">
+          <div id="galleryleft">
+              <div class="anim3" id="galleryleftimg">
+                  <img src="./sea.jpg" alt="">
+              </div>
+              <div id="gallerylefttext">
+                  <h2>Synergy</h2>
+                  <p>Committed to sustainability, eco-feiendly choices for a better
+                      tomorrow</p>
+              </div>
+          </div>
+          <div  id="galleryright">
+              <div class="anim3" id="galleryrightimg">
+                  <img src="./cloud.jpg" alt="">
+              </div>
+              <div id="galleryrighttext">
+                  <h2>Harmony</h2>
+                  <p>Committed to sustainability, eco-feiendly choices for a better
+                      tomorrow</p>
+              </div>
+          </div>
+      </div>
+      <div id="banner">
+          <div id="bimg">
+              <img src="./bottle.jpg" alt="">
+              <img src="./bottle2.jpg" alt="">
+          </div>
+          <div id="btext">
+              <h1>Biodegradable <br> Packing</h1>
 
-                <p>Committed to sustainability, eco-feiendly choices for a better
-                    tomorrow</p>
-            </div>
-        </div>
-        <div id="future">
-            <video src="./back.mp4" autoplay loop muted></video>
-            <div id="ftext">
-                <h1>think of future</h1>
-            <button>join the movement</button>
-            </div>
-        </div>
+              <p>Committed to sustainability, eco-feiendly choices for a better
+                  tomorrow</p>
+          </div>
+      </div>
+      <div id="future">
+          <video src="./back.mp4" autoplay loop muted></video>
+          <div id="ftext">
+              <h1>think of future</h1>
+          <button>join the movement</button>
+          </div>
       </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
